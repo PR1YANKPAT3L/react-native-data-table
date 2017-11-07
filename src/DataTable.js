@@ -13,7 +13,7 @@ import {
   View,
 } from 'react-native';
 
-import { ListView } from 'realm/react-native';
+import { ListView } from 'react-native';
 
 export class DataTable extends React.Component {
   constructor(props) {
