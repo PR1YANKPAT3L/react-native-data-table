@@ -12,6 +12,7 @@ import {
   Text,
   View,
   TouchableOpacity,
+  ViewPropTypes,
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/FontAwesome';
@@ -79,7 +80,7 @@ export function HeaderCell(props) {
 HeaderCell.propTypes = {
   isSelected: PropTypes.bool,
   isAscending: PropTypes.bool,
-  style: View.propTypes.style,
+  style: ViewPropTypes.style,
   textStyle: Text.propTypes.style,
   width: PropTypes.number,
   onPress: PropTypes.func,
