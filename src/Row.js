@@ -11,6 +11,7 @@ import {
   View,
   StyleSheet,
   TouchableOpacity,
+  ViewPropTypes,
 } from 'react-native';
 
 export class Row extends React.Component {
@@ -69,7 +70,7 @@ export class Row extends React.Component {
 }
 
 Row.propTypes = {
-  style: View.propTypes.style,
+  style: ViewPropTypes.style,
   children: PropTypes.any,
   onPress: PropTypes.func,
   isExpanded: PropTypes.bool,
